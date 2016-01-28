@@ -1,0 +1,19 @@
+# ignore svn folder
+DRMS/.svn/
+SGV/.svn/
+*/.svn/
+
+#archive files
+*.jar
+*.war
+*.ear
+*.log
+target/
+bin/
+build/
+classes/
+.idea/
+out/
+*.iml
+test-output/
+test/java/log4j.properties
