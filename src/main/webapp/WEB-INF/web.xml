@@ -29,7 +29,7 @@
   <!-- the listener that configures camel-spark-rest in servlet mode -->
   <!-- this listener must be defined first -->
   <listener>
-    <listener-class>com.github.soulaway.rsf.RsfContextListener</listener-class>
+    <listener-class>org.apache.camel.component.sparkrest.SparkServletContextListener</listener-class>
   </listener>
 
   <!-- the listener that kick-starts Spring -->
@@ -44,7 +44,7 @@
     <!-- must use Camels ServletSparkApplication as the application class -->
     <init-param>
       <param-name>applicationClass</param-name>
-      <param-value>com.github.soulaway.rsf.RsfServlet</param-value>
+      <param-value>org.apache.camel.component.sparkrest.ServletSparkApplication</param-value>
     </init-param>
   </filter>
 
