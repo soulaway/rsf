@@ -1,9 +1,3 @@
-# ignore svn folder
-DRMS/.svn/
-SGV/.svn/
-*/.svn/
-
-#archive files
 *.jar
 *.war
 *.ear
